@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE / editors
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# Office / Excel lock & temp files
+.~*
+~$*
+*.tmp
+
+# Node (future frontend)
+node_modules/
+dist/
+build/
+.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# OS / misc
+Thumbs.db
+Desktop.ini
